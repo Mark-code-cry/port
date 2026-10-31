@@ -1,0 +1,55 @@
+.section-bluewash.technology-section{background:#f4f8ff}
+.technology-section .section-heading h2 span{color:#000000}
+.technology-strip{
+  position:relative;
+  width:100%;
+  max-width:100%;
+  overflow:hidden;
+  padding:18px 0 22px;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 7%,#000 93%,transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0%,#000 7%,#000 93%,transparent 100%);
+}
+.technology-strip:focus-visible{outline:3px solid #75a0ee;outline-offset:3px;border-radius:8px}
+.technology-track{
+  display:flex;
+  width:max-content;
+  animation:technology-scroll 48s linear infinite;
+  will-change:transform;
+}
+.technology-group{
+  display:flex;
+  flex:none;
+  align-items:flex-start;
+  gap:76px;
+  padding-right:76px;
+}
+.technology-item{
+  display:flex;
+  width:112px;
+  min-height:92px;
+  flex:none;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap:12px;
+  color:#30425a;
+  text-align:center;
+  animation:technology-wave 3.6s ease-in-out infinite;
+  animation-delay:var(--wave-delay,0s);
+}
+.technology-item img{display:block;width:46px;height:46px;object-fit:contain;flex:none}
+.technology-item span{max-width:112px;font-size:11px;line-height:1.4;font-weight:500}
+.technology-strip:hover .technology-track,
+.technology-strip:focus-within .technology-track{animation-play-state:paused}
+.technology-strip:hover .technology-item,
+.technology-strip:focus-within .technology-item{animation-play-state:paused}
+@keyframes technology-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes technology-wave{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@media(max-width:760px){.technology-group{gap:55px;padding-right:55px}.technology-item{width:104px}.technology-item span{font-size:10px}}
+@media(prefers-reduced-motion:reduce){
+  .technology-strip{overflow:visible;padding:8px 0;-webkit-mask-image:none;mask-image:none}
+  .technology-track{display:block;width:100%;animation:none;transform:none;will-change:auto}
+  .technology-group:not(.is-duplicate){width:100%;justify-content:center;flex-wrap:wrap;gap:28px 40px;padding:0}
+  .technology-group.is-duplicate{display:none}
+  .technology-item{animation:none}
+}
