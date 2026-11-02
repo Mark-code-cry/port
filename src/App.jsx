@@ -135,7 +135,7 @@ function App() {
             <div className="hero-actions"><a className="button button-primary" href="#projects">View Projects <span aria-hidden="true">↓</span></a></div>
             <div className="hero-meta"><span><b>Focus</b>Web Development · Mobile Applications · Administrative Support · Technical Assistance</span></div>
           </div>
-          <div className="profile-wrap"><div className="profile-frame"><img src="/images/graduate.png" alt="Mark Arhiel Gloria in his graduation gown" /></div><span className="profile-caption">MARK ARHIEL GLORIA</span></div>
+          <div className="profile-wrap"><div className="profile-frame"><img src="/images/va.png" alt="Mark Arhiel Gloria in a black suit" /></div><span className="profile-caption">MARK ARHIEL GLORIA</span></div>
         </div>
       </section>
 
