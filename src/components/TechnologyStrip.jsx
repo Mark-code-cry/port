@@ -9,11 +9,11 @@ const technologies = [
   { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/figma/figma-original.svg" },
   { name: "Visual Studio Code", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vscode/vscode-original.svg" },
   { name: "Android Studio", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/androidstudio/androidstudio-original.svg" },
-  { name: "Google Docs", src: "https://api.iconify.design/simple-icons:googledocs.svg?color=%234285F4" },
-  { name: "Google Sheets", src: "https://api.iconify.design/simple-icons:googlesheets.svg?color=%2334A853" },
+  { name: "Google Docs", src: "/images/tools/google-docs.svg" },
+  { name: "Google Sheets", src: "/images/tools/google-sheets.svg" },
   { name: "Google Drive", src: "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-drive.svg" },
-  { name: "Microsoft Word", src: "https://api.iconify.design/mdi:microsoft-word.svg?color=%232B579A" },
-  { name: "Microsoft Excel", src: "https://api.iconify.design/vscode-icons:file-type-excel.svg" },
+  { name: "Microsoft Word", src: "/images/tools/microsoft-word.svg" },
+  { name: "Microsoft Excel", src: "/images/tools/microsoft-excel.svg" },
   { name: "ChatGPT", src: "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/openai-icon.svg" },
 ];
 
